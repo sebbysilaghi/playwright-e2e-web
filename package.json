@@ -1,0 +1,30 @@
+{
+  "name": "playwright-e2e-web",
+  "version": "1.0.0",
+  "description": "This repository contains end-to-end tests using Playwright with TypeScript.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebbysilaghi/playwright-e2e-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebbysilaghi/playwright-e2e-web/issues"
+  },
+  "homepage": "https://github.com/sebbysilaghi/playwright-e2e-web#readme",
+  "dependencies": {
+    "@playwright/test": "^1.51.1",
+    "playwright": "^1.51.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
