@@ -40,5 +40,3 @@ If you're using TypeScript, initialize your TypeScript configuration:
 
 npx tsc --init
 This will create a tsconfig.json file for configuring TypeScript.
-
-```sh

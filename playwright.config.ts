@@ -21,8 +21,4 @@ export default defineConfig({
       use: { ...devices['Desktop Firefox'], headless: true },  // Run tests in headless Firefox
     },
   ],
-
-  // Optional: Configure global setup/teardown steps, such as test hooks
-  globalSetup: './global-setup.ts',  // Path to a global setup file (if needed)
-  globalTeardown: './global-teardown.ts',  // Path to a global teardown file (if needed)
 });
